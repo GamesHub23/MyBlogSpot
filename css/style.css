@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>My Blog OS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Taskbar -->
+  <div id="taskbar">
+    <button id="start-button">Start</button>
+    <div id="taskbar-widgets">
+      <div id="clock"></div>
+    </div>
+  </div>
+
+  <!-- Start Menu -->
+  <div id="start-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="music.html">Music</a></li>
+      <li><a href="video.html">Video</a></li>
+      <li><a href="games.html">Games</a></li>
+      <li><a href="wallpapers.html">Wallpapers</a></li>
+    </ul>
+  </div>
+
+  <!-- Conținut principal -->
+  <div id="content">
+    <h1>Bine ai venit pe blog!</h1>
+    <p>Aici găsești Music, Video, Games și Wallpapers.</p>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
